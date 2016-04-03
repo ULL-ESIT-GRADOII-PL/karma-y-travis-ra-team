@@ -18,7 +18,7 @@ Y además entre:
 * [Click aquí](http://lambdacode.github.io/Mocha-y-Chai/)
 
 ### Repositorio de trabajo:
-* [Click aquí](https://github.com/LambdaCode/Mocha-y-Chai)
+* [Click aquí](https://github.com/LambdaCode/Karma-y-Travis)
 
 ### Validación por www.W3.org (validator.w3.org)
 Resultado: 0 errores y 0 warnings.
