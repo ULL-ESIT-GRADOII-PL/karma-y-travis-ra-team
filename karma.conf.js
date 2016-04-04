@@ -15,8 +15,20 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'test/*.js',
-      'assets/js/*.js'
+      'assets/js/xregexp-all.js',
+      'assets/js/medida.js',
+      'assets/js/temperature.js',
+      'assets/js/celsius.js',
+      'assets/js/kelvin.js',
+      'assets/js/farenheit.js',
+      'assets/js/longitud.js',
+      'assets/js/meters.js',
+      'assets/js/inches.js',
+      'assets/js/converter.js',
+      'vendor/chai.js',
+      'vendor/mocha.js',
+      'assets/js/Medida_Test.js',
+      'test/index.html'
     ],
 
 
@@ -61,7 +73,7 @@ module.exports = function(config) {
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
-    singleRun: false,
+    singleRun: true,
 
     // Concurrency level
     // how many browser should be started simultaneous

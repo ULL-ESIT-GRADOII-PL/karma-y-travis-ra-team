@@ -139,31 +139,31 @@ describe('Testing Longitud Class', function() {
     describe('Celsius to X invalid conversions', function () {
       it('Should say error from Celsius to Meters', function () {
         var convertion = Medida.convertir('100c to m');
-        expect(convertion).to.equal('Invalid conversion: unknown how to convert from \'c\' to \'Meters\'... See Examples below! Meters');
+        expect(convertion).to.equal('Invalid conversion: unknown how to convert from \'c\' to \'Meters\'.. See Examples below! Meters');
       });
       it('Should say error from Celsius to Inches', function () {
         var convertion = Medida.convertir('100c to i');
-        expect(convertion).to.equal('Invalid conversion: unknown how to convert from \'c\' to \'Inches\'... See Examples below! Inches');
+        expect(convertion).to.equal('Invalid conversion: unknown how to convert from \'c\' to \'Inches\'.. See Examples below! Inches');
       });
       it('Should say error from Fahrenheit to Meters', function () {
         var convertion = Medida.convertir('100f to m');
-        expect(convertion).to.equal('Invalid conversion: unknown how to convert from \'f\' to \'Meters\'... See Examples below! Meters');
+        expect(convertion).to.equal('Invalid conversion: unknown how to convert from \'f\' to \'Meters\'.. See Examples below! Meters');
       });
       it('Should say error from Fahrenheit to Inches', function () {
         var convertion = Medida.convertir('100f to i');
-        expect(convertion).to.equal('Invalid conversion: unknown how to convert from \'f\' to \'Inches\'... See Examples below! Inches');
+        expect(convertion).to.equal('Invalid conversion: unknown how to convert from \'f\' to \'Inches\'.. See Examples below! Inches');
       });
       it('Should say error from Kelvin to Meters', function () {
         var convertion = Medida.convertir('100k to m');
-        expect(convertion).to.equal('Invalid conversion: unknown how to convert from \'k\' to \'Meters\'... See Examples below! Meters');
+        expect(convertion).to.equal('Invalid conversion: unknown how to convert from \'k\' to \'Meters\'.. See Examples below! Meters');
       });
       it('Should say error from Kelvin to Inches', function () {
         var convertion = Medida.convertir('100k to i');
-        expect(convertion).to.equal('Invalid conversion: unknown how to convert from \'k\' to \'Inches\'... See Examples below! Inches');
+        expect(convertion).to.equal('Invalid conversion: unknown how to convert from \'k\' to \'Inches\'.. See Examples below! Inches');
       });
       it('Should say error from unknown source type', function () {
         var convertion = Medida.convertir('100y to i');
-        expect(convertion).to.equal('Invalid conversion: unknown how to convert from \'y\' to \'Inches\'... See Examples below! Inches');
+        expect(convertion).to.equal('Invalid conversion: unknown how to convert from \'y\' to \'Inches\'.. See Examples below! Inches');
       });
     });
 });
