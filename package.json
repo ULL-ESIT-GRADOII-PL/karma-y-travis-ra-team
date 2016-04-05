@@ -35,6 +35,7 @@
     "gulp-minifier": "^0.1.3",
     "karma": "*",
     "karma-chai": "*",
+    "karma-jasmine": "*",
     "karma-chrome-launcher": "*",
     "karma-safari-launcher": "*",
     "karma-firefox-launcher": "*",
