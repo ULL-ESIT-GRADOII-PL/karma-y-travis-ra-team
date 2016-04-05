@@ -1,39 +1,46 @@
 {
-  "name": "Conversor",
-  "version": "0.0.1",
-  "description": "Conversor javascript de tipos",
-  "main": "conversor.js",
+  "name": "Conversor de medidas",
+  "version": "0.1.1",
+  "description": "Conversor JS de Medidas utilizando POO, Pruebas, Cubrimiento, CI",
+  "main": "./assets/js/main.js",
   "scripts": {
-    "test": "karma start --single-run"
+    "test": "./node_modules/karma/bin/karma start --single-run",
+    "testf": "open ./test/index.html",
+    "chai": "curl https://raw.githubusercontent.com/chaijs/chai/master/chai.js -o vendor/chai.js",
+    "sinon": "curl http://sinonjs.org/releases/sinon-1.12.2.js -o vendor/sinon-1.12.2.js",
+    "karma": "node_modules/karma/bin/karma start"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/LambdaCode/Mocha-y-Chai.git"
+    "url": "https://github.com/LambdaCode/Karma-y-Travis.git"
   },
   "keywords": [
-    "conversor"
+    "mocha",
+    "chai",
+    "sinon",
+    "testing",
+    "javascript"
   ],
-  "author": "Rudolf Cicko & Adrián Bazaga Rodríguez",
+  "author": "Adrián Rodríguez Bazaga & Rudolf Cicko",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LambdaCode/Mocha-y-Chai/issues"
+    "url": "https://github.com/LambdaCode/Karma-y-Travis/issues"
   },
-  "homepage": "https://github.com/LambdaCode",
+  "homepage": "https://github.com/ULL-ESIT-GRADOII-PL/karma-y-travis-David_y_Ruyman",
   "devDependencies": {
-    "del": "~2.2.0",
-    "gulp": "~3.9.1",
-    "gulp-minifier": "~0.1.3",
-    "chai": "~3.5.0",
-    "mocha": "~2.4.5",
-    "node-static": "~0.7.7",
-    "blanket": "^1.2.2",
-    "chai": "*",
-    "karma": "^0.13.22",
-    "karma-chai": "^0.1.0",
-    "karma-firefox-launcher": "0.1.0",
-    "karma-mocha": "^0.2.2",
-    "karma-phantomjs-launcher": "^1.0.0",
-    "mocha": "*",
-    "phantomjs-prebuilt": "^2.1.7"
+    "gulp-gh-pages": "*",
+    "chai": "~2.0.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-minifier": "^0.1.3",
+    "karma": "*",
+    "karma-chai": "*",
+    "karma-chrome-launcher": "*",
+    "karma-safari-launcher": "*",
+    "karma-firefox-launcher": "*",
+    "karma-phantomjs-launcher": "*",
+    "karma-html2js-preprocessor": "*",
+    "karma-mocha": "*",
+    "mocha": "*"
   }
 }
