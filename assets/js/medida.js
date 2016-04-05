@@ -1,7 +1,7 @@
 (function(exports) {
 
     "use strict";
-    const REGEX = XRegExp('(?<num>      [-+]?[0-9]+(.[0-9]+)?[ ]*(?:e[+-]?[ ]*[0-9]+)?)[ ]*    # number       \n' +
+    var REGEX = XRegExp('(?<num>      [-+]?[0-9]+(.[0-9]+)?[ ]*(?:e[+-]?[ ]*[0-9]+)?)[ ]*    # number       \n' +
         '(?<input>    [a-z])[ ]*                                           # inputTemp    \n' +
         '(?<to>       (?:to)?)[ ]*                                           # to           \n' +
         '(?<output>   [a-z])[ ]*                                           # outputTemp', 'x' + 'i');

@@ -1,8 +1,10 @@
-# Práctica: Pruebas con Mocha y Chai + Cubrimiento con BlanketJS
+# Práctica: Karma y Travis
 ## ESIT ULL - Grado en Ingeniería Informática - Tercer Curso - Itinerario: Computación
 ## Team: Adrián Rodríguez Bazaga (AdrianBZG) & Rudolf Cicko (alu0100824780)
 
-Este repositorio aloja la práctica de conversión de medidas, realizada con HTML, CSS y JavaScript, usando POO y haciendo uso de la herencia en JavaScript, con la peculiaridad de que se elimina el Switch Smell haciendo uso de encapsulamiento y la delegación de tareas. Además se hacen las pruebas con Mocha y Chai y el cubrimiento con BlanketJS
+![Travis](https://camo.githubusercontent.com/8e0a9f5f808930e562b085a90b5b60aa6da66a35/68747470733a2f2f7472617669732d63692e6f72672f616c75303130303831363736312f6b61726d612d792d7472617669732d6e6174616c6965616c657869732e7376673f6272616e63683d6d6173746572 "Travis")
+
+Este repositorio aloja la práctica de uso de Karma para probar en diferentes navegadores y Travis para integración continua.
 
 Esta aplicación nos permite realizar conversiones de medidas entre:
 * Kelvin
@@ -18,7 +20,7 @@ Y además entre:
 * [Click aquí](http://lambdacode.github.io/Mocha-y-Chai/)
 
 ### Repositorio de trabajo:
-* [Click aquí](https://github.com/LambdaCode/Mocha-y-Chai)
+* [Click aquí](https://github.com/LambdaCode/Karma-y-Travis)
 
 ### Validación por www.W3.org (validator.w3.org)
 Resultado: 0 errores y 0 warnings.
