@@ -1,6 +1,6 @@
 {
-  "name": "Conversor de medidas",
-  "version": "0.1.1",
+  "name": "Conversor",
+  "version": "0.0.1",
   "description": "Conversor JS de Medidas utilizando POO, Pruebas, Cubrimiento, CI",
   "main": "./assets/js/main.js",
   "scripts": {
