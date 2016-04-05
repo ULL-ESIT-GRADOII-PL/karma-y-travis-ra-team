@@ -2,7 +2,7 @@
 ## ESIT ULL - Grado en Ingeniería Informática - Tercer Curso - Itinerario: Computación
 ## Team: Adrián Rodríguez Bazaga (AdrianBZG) & Rudolf Cicko (alu0100824780)
 
-![Travis](https://camo.githubusercontent.com/8e0a9f5f808930e562b085a90b5b60aa6da66a35/68747470733a2f2f7472617669732d63692e6f72672f616c75303130303831363736312f6b61726d612d792d7472617669732d6e6174616c6965616c657869732e7376673f6272616e63683d6d6173746572 "Travis")
+[![Build Status](https://travis-ci.org/LambdaCode/Karma-y-Travis.svg?branch=master)](https://travis-ci.org/LambdaCode/Karma-y-Travis)
 
 Este repositorio aloja la práctica de uso de Karma para probar en diferentes navegadores y Travis para integración continua.
 
